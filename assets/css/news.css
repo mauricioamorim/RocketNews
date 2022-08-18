@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', 'Work Sans', sans-serif;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+    font-size: 18px;
+}
+
+body {
+    background-color: #121214;
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+.flex {
+    display: flex;
+    width: 100vw;
+}
+
+.col1 {
+    width: 53%;
+    padding: 50px 0px 0px 36px;
+    min-width: 720px;
+}
+
+.col2 {
+    width: 47%;
+    min-height: 720px;
+    background-image: url('../img/read_news.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 64% top;
+}
+
+form {
+    position: absolute;
+    top: 388px;
+}
+
+label {
+    display: block;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: 138.73%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+input {
+    height: 48px;
+    width: 750px;
+    border: 0px;
+    border-left: #04D361 solid 5px;
+    padding-left: 10px;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    border: 0px;
+}
+
+form a {
+    display: flex;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #8257e5;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+a img {
+    margin-left: 5px;
+}
+
+
+
+
+.title-color {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #04D361;
+    margin-top: 85px;
+}
+.text-color {
+    color: #E1E1E6;
+    font-weight: 700;
+    line-height: 35px;
+}
+.form-color {
+    color: #A8A8A8;
+    font-weight: 500;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+.bg-button-color {
+    background-color: #8257e5;
+}
