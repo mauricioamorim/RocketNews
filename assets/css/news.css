@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 
 .col2 {
     width: 47%;
-    min-height: 720px;
+    min-height: 785px;
     background-image: url('../img/read_news.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,15 +63,16 @@ label {
 .email {
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 input {
-    height: 48px;
+    height: 49px;
     width: 750px;
     border: 0px;
     border-left: #04D361 solid 5px;
     padding-left: 10px;
+    box-shadow: 8px 10px 50px rgba(0, 0, 0, 0.25);
 }
 
 button {
@@ -79,6 +80,7 @@ button {
     width: 48px;
     align-items: center;
     border: 0px;
+    box-shadow: 8px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
 form a {
