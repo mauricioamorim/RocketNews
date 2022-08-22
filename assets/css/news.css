@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@
     --title-color: #04D361;
     --form-color: #A8A8A8;
     --bg-button-color: #8257e5;
-    font-size: 18px;
+    font-size: 17.5px;
 }
 
 body {
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 
 .col1 {
     width: 53%;
-    padding: 50px 0px 0px 36px;
+    padding: 50px 0px 0px 30px;
     min-width: 720px;
 }
 
@@ -46,17 +46,18 @@ body::-webkit-scrollbar {
     background-position: 64% top;
 }
 
+p {
+    margin-left: 6px;
+}
+
 form {
     position: absolute;
-    top: 388px;
+    top: 380px;
+    margin-left: 6px;
 }
 
 label {
     display: block;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 500!important;
-    line-height: 138.73%;
 }
 
 .email {
@@ -87,7 +88,8 @@ form a {
     color: #8257e5;
     font-family: 'League Spartan';
     font-style: normal;
-    font-weight: 700;
+    font-size: 17.5px;
+    font-weight: 600;
     line-height: 24px;
 }
 
@@ -104,20 +106,35 @@ a img {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    color: #04D361;
-    margin-top: 85px;
+    color: #08C05E;
+    margin-top: 88px;
 }
 .text-color {
-    color: #E1E1E6;
-    font-weight: 700;
-    line-height: 35px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.3px!important;
+    word-spacing: -0.5px!important;
+    font-size: 17.4px;
+}
+.text-color2 {
+    color: #FFFFFF;
+    font-weight: 300;
+    letter-spacing: 0.5px!important;
+    word-spacing: 0px!important;
+    font-size: 17.4px;
+    line-height: 19px;
 }
 .form-color {
     color: #A8A8A8;
-    font-weight: 500;
+    padding-top: 9px;
     line-height: 19px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600!important;
+    letter-spacing: 0.5px!important;
+    word-spacing: 0.1px;
+    font-size: 16.5px;
 }
 .bg-button-color {
     background-color: #8257e5;
