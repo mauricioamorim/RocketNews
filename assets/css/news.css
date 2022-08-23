@@ -33,8 +33,8 @@ body::-webkit-scrollbar {
 
 .col1 {
     width: 53%;
-    padding: 50px 0px 0px 30px;
     min-width: 720px;
+    padding: 50px 0px 30px 30px;
 }
 
 .col2 {
@@ -140,4 +140,23 @@ a img {
 }
 .bg-button-color {
     background-color: #8257e5;
+}
+
+
+@media screen and (max-width: 850px) {
+    .col1 {
+        width: 100vw;
+        min-width: 400px;
+        min-height: 590px;
+    }
+    .col2 {
+        display: none;
+        width: 0vw;
+    }
+    input {
+        width: 75vw;
+    }
+    .title-color {
+        margin-top: 1em;
+    }
 }
